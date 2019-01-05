@@ -13,9 +13,9 @@
 - run "sequelize db:migrate" - migrations essentially run our sql commands
 
 - so far:
-  -- we have created our git repo project,
-  -- installed necessary tools:
-  --- NPM, express, sequelize
-  -- created three models for our database
+  ...we have created our git repo project,
+  ....installed necessary tools:
+  ....NPM, express, sequelize
+  ...created three models for our database
 
 - create files: create-album.js, create-artist.js, create-track.js
