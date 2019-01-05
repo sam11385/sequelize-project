@@ -8,4 +8,6 @@ Steps for project:
 - npm install sequelize (communicate with database)
 - npm install pg pg-hstore
 
-- create file names "create-album.js"
+- run sequelize commands for db connection: "sequelize init"
+- update sequelize config to point to your database
+- create files: create-album.js, create-artist.js, create-track.js
