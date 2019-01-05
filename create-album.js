@@ -1,15 +1,15 @@
-var express = require('express');
+const express = require('express');
 const app = express();
 const models = require('./models');
 
-var readline = require('readline').createInterface({
+const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-const albumName = '';
-const albumYear = '';
-const artistId = '';
+let albumName = '';
+let albumYear = '';
+let artistId = '';
 
 readline.question('Album name?\n', nameOfAlbum => {
   readline.question('Album year?\n', yearOfAlbum => {
