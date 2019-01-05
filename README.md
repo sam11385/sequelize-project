@@ -1,6 +1,4 @@
-# sequelize-project
-
-Steps for project:
+# Steps for project:
 
 - Create github repo
 - npm init
